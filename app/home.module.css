@@ -14,7 +14,7 @@
   .tabButton {
     padding: 10px 20px;
     cursor: pointer;
-    background-color: #0070f3;
+    background-color: #003d83;
     color: white;
     border: none;
     border-radius: 5px;
@@ -34,7 +34,7 @@
   
   .h2 {
     color: #050505;
-    font-size: large;
+    font-size: xx-large;
     font-family: 'Times New Roman', Times, serif;
   }
   .p {
@@ -50,15 +50,17 @@
   }
   
   .li {
-    margin: 10px 0;
+    margin: 15px 0;
     padding-left: 1em;
-    text-indent: -1em;
+    text-indent: -.63em;
     color: #474747;
+    font-size: 95%;
+    font-family: 'Times New Roman', Times, serif;
 
   }
   
   .li::before {
-    content: "• ";
+    content: "- ";
     color: #0070f3;
   }
   
