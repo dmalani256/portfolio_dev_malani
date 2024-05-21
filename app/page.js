@@ -6,6 +6,8 @@ import Education from './components/Education';
 import About from './components/About';
 import Image from "next/image";
 import styles from "./page.module.css";
+import style from "./home.module.css";
+
 
 export default function Home() {
   const [tab, setTab] = useState("about");
@@ -24,14 +26,16 @@ export default function Home() {
     }
   };
   return (
-    <div>
-      <nav>
-        <button onClick={() => setTab("about")}>About</button>
-        <button onClick={() => setTab("skills")}>Skills</button>
-        <button onClick={() => setTab("experience")}>Experience</button>
-        <button onClick={() => setTab("education")}>Education</button>
+    <div className={style.container}>
+      <nav className={style.nav}>
+        <button className={style.tabButton} onClick={() => setTab('about')}>About</button>
+        <button className={style.tabButton} onClick={() => setTab('skills')}>Skills</button>
+        <button className={style.tabButton} onClick={() => setTab('experience')}>Experience</button>
+        <button className={style.tabButton} onClick={() => setTab('education')}>Education</button>
       </nav>
-      <div>{renderTabContent()}</div>
+      <div className={style.content}>
+        {renderTabContent()}
+      </div>
     </div>
   );
 }
