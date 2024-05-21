@@ -33,19 +33,28 @@
   }
   
   .h2 {
-    color: #333;
+    color: #050505;
     font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .p {
+    color: #474747;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
   }
   
   .ul {
     list-style-type: none;
     padding: 0;
+    color: #000000;
   }
   
   .li {
     margin: 10px 0;
     padding-left: 1em;
     text-indent: -1em;
+    color: #474747;
+
   }
   
   .li::before {

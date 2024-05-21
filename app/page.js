@@ -1,9 +1,9 @@
 'use client'
 import { useState } from 'react';
-import Skills from './components/Skill';
-import Experience from './components/Experience';
-import Education from './components/Education';
-import About from './components/About';
+import Skills from './Skill';
+import Experience from './Experience';
+import Education from './Education';
+import About from './About';
 import Image from "next/image";
 import styles from "./page.module.css";
 import style from "./home.module.css";
