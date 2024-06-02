@@ -14,27 +14,15 @@ const About = () => (
       proficient in various programming languages and technologies such as Java,
       Python, C#, JavaScript, TypeScript, GitHub, Postman, AWS, and Azure. My
       passion fall into the full-stack web development realm which sparked
-      during my role at OncoHealth as a Software Engineer. OncoHealth is a
-      prestigious healthcare company specializing in case management for cancer
-      patients where insurance providers such as Excellus BCBS, Humana,
-      Triple-S, Alignment Healthcare, etc. provides us with cases and our review
-      specialists will review each case individually alongside with the clinical
-      and life science team. Once reviewed and approved, we send them back to
-      the insurance providers in form of audit reports. My primary
-      responsibility was to work closely with these review specialists,
-      clinical, and life science team to enhance our website's functionality
-      and/or any updates needed for the cases. Some technologies that I have
-      used at OncoHealth, includes both ASP.NET and .NET core with C#, Angular,
-      and Microsoft SQL Server for full-stack purposes, Zendesk for production
+      during my role at OncoHealth as a Software Engineer. My primary
+      responsibility at OncoHealth was to work closely with the review specialists 
+      to enhance our website's functionality and/or any updates needed for the cases. 
+      Some technologies that I have used at OncoHealth, includes both ASP.NET and .NET 
+      core with C#, Angular,and Microsoft SQL Server for full-stack purposes, Zendesk for production
       support, Azure for Cloud Infrastructure, and Azure DevOps for source
       control, CI/CD, and task prioritization. On the contrary, I had the
-      privilege to intern at Equifax as a Software Developer. Equifax is an
-      agency that collects and maintains information on credit histories of
-      individuals and businesses, including credit scores, payment history, and
-      other financial data. This information is used by lenders, landlords,
-      employers, and others to assess creditworthiness and make decisions about
-      extending credit or services. My primary responsibility as a Software
-      Developer Intern was mainly to test and build API endpoints and create
+      privilege to intern at Equifax as a Software Developer. My primary 
+      responsibility was mainly to test and build API endpoints and create
       test cases for certain services. Some technologies that I have used at
       Equifax are Spring using Java, GitHub for source control, SonarQube for
       software management, JIRA for task prioritization, and Postman for testing
