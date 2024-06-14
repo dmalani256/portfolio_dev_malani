@@ -1,4 +1,5 @@
 import style from "./home.module.css";
+import Image from "next/image";
 import degree from './degree.jpg';
 const Education = () => (
   <div className={style.div}>
@@ -9,7 +10,14 @@ const Education = () => (
     <p className={style.p}>Duration: August 2019 - May 2023</p>
     <p className={style.p}>GPA: 3.5</p>
     <p className={style.p}>Status: Completed</p>
-    <Image src={degree} alt="Degree image" width={210} height={250} />
+    <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+        }}
+      >
+        <Image src={degree} alt="Degree image" width={553.6} height={434.4} />
+    </div>
   </div>
 
 );
