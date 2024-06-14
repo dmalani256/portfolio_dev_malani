@@ -8,7 +8,7 @@ const Experience = () => (
         Company: OncoHealth
       </p>
       <p className={style.p}>Location: Atlanta, GA</p>
-      <p className={style.p}>Position: Support/Software Engineer</p>
+      <p className={style.p}>Position: Software Engineer</p>
       <p className={style.p}>Duration: August 2023 - December 2023</p>
       <p className={style.p}>Description/responsibilities: </p>
       <ul className={style.ul}>
@@ -49,7 +49,7 @@ const Experience = () => (
         Company: OncoHealth
       </p>
       <p className={style.p}>Location: Atlanta, GA</p>
-      <p className={style.p}>Position: Support Engineer Intern</p>
+      <p className={style.p}>Position: Software Engineer Intern</p>
       <p className={style.p}>Duration: April 2023 - July 2023</p>
       <p className={style.p}>Description/responsibilities: </p>
       <ul className={style.ul}>
