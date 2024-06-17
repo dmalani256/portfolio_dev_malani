@@ -1,4 +1,7 @@
 import style from "./home.module.css";
+import Image from "next/image";
+import elogo from "./Equifax.png";
+import ologo from "./OncoHealth.jpg";
 const Experience = () => (
   <div>
     <h2 className={style.h2}>Work Experience</h2>
@@ -7,6 +10,8 @@ const Experience = () => (
       <p class="company" className={style.p}>
         Company: OncoHealth
       </p>
+      <Image src={ologo} alt="OncoHealth Logo" width={150} height={80}/>
+      <p className={style.p}>Website: <a className = {style.a} href="https://oncohealth.us/" target="_blank">OncoHealth</a></p>
       <p className={style.p}>Location: Atlanta, GA</p>
       <p className={style.p}>Position: Software Engineer</p>
       <p className={style.p}>Duration: August 2023 - December 2023</p>
@@ -50,6 +55,8 @@ const Experience = () => (
       <p class="company" className={style.p}>
         Company: OncoHealth
       </p>
+      <Image src={ologo} alt="OncoHealth Logo" width={150} height={80}/>
+      <p className={style.p}>Website: <a className = {style.a} href="https://oncohealth.us/" target="_blank">OncoHealth</a></p>
       <p className={style.p}>Location: Atlanta, GA</p>
       <p className={style.p}>Position: Software Engineer Intern</p>
       <p className={style.p}>Duration: April 2023 - July 2023</p>
@@ -85,6 +92,8 @@ const Experience = () => (
       <p class="company" className={style.p}>
         Company: Equifax
       </p>
+      <Image src={elogo} alt="Equifax Logo" width={150} height={150}/>
+      <p className={style.p}>Website: <a className = {style.a} href="https://www.equifax.com/" target="_blank">Equifax</a></p>
       <p className={style.p}>Location: Alpharetta, GA</p>
       <p className={style.p}>Position: Software Developer Intern</p>
       <p className={style.p}>Duration: February 2021 - August 2021</p>
