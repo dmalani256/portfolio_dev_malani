@@ -13,18 +13,20 @@ const Experience = () => (
       <p className={style.p}>Description/responsibilities: </p>
       <ul className={style.ul}>
         <li className={style.li}>
-          Spearheaded a live demonstration of enhancements made to the
-          administration portal, providing the entire organization with insights
-          into new changes.
+          Spearheaded a live demonstration of enhancements that was made to the
+          administration portal to give further insights of new changes that
+          will impact the entire organization.
         </li>
         <li className={style.li}>
           Facilitated with the DevOps team to address defects within specific
-          environments using app insights and live metric functionality to trace
-          failed requests and exceptions.
+          environments through app insights live metric functionality to trace
+          any failed requests and exceptions.
         </li>
         <li className={style.li}>
-          Partnered with the QA Analyst to conduct penetration testing on
-          critical features and address vulnerabilities.
+          Partnered with the QA Analyst to diligently perform penetration
+          testing on pivotal features in order to resolve substantial
+          vulnerabilities that potentially may arise within the management
+          system.
         </li>
         <li className={style.li}>
           Made use of Azure Functions to deploy a new function in C# to allow
@@ -32,13 +34,13 @@ const Experience = () => (
           the administration portal.
         </li>
         <li className={style.li}>
-          Undertook Full Stack development, utilizing .NET with C# and Angular
-          to construct, customize, and troubleshoot in the Administration
-          Portal.
+          Undertook Full Stack development, harnessing .NET with C# and Angular
+          with TypeScript to construct, customize, and troubleshoot in the
+          administration portal.
         </li>
         <li className={style.li}>
           Designed and developed a notification service using Twilio and Python
-          for clinicians when cases arise.
+          for clinicians when cases pop-up.
         </li>
       </ul>
     </div>
@@ -54,18 +56,26 @@ const Experience = () => (
       <p className={style.p}>Description/responsibilities: </p>
       <ul className={style.ul}>
         <li className={style.li}>
+          Utilized ASP.NET for the sole purpose of assembling, examining, and
+          diagnosing the management system.
+        </li>
+        <li className={style.li}>
           Generated various SQL Scripts to update essential issues in the
-          Management System, resulting in a 40% reduction of production issues
-          reported by internal clients in Zendesk.
+          management system that resulted in a 40% reduction of production
+          issues that were reported by internal clients in Zendesk.
+        </li>
+        <li className={style.li}>
+          Resolved over 15+ bugs within the management system that ranged from
+          the frontend to the database.
+        </li>
+        <li className={style.li}>
+          Implemented stored procedures in SQL to allow a trigger to happen in
+          the .NET service where clients can update drugs with specific units of
+          measurement after entering the drug.
         </li>
         <li className={style.li}>
           Coordinated efforts in thorough production reviews to ensure smooth
-          functionality of every feature prior to deployment to production.
-        </li>
-        <li className={style.li}>
-          Implemented stored procedures in SQL to trigger actions in the .NET
-          service, allowing clients to update drug tables with specific units of
-          measurement upon data entry.
+          functionality of every feature prior to deployment.
         </li>
       </ul>
     </div>
@@ -85,17 +95,16 @@ const Experience = () => (
           backend framework.
         </li>
         <li className={style.li}>
-          Oversaw task prioritization using JIRA to emphasize critical system
-          defects.
+          Oversaw task prioritization via JIRA for the purpose of emphasizing
+          critical system defects.
         </li>
         <li className={style.li}>
-          Enhanced line coverage for various services within the product by
-          formulating unit tests using JUnit 5 test cases.
+          Enhanced line coverage for various services by 80% through the
+          formulation of unit tests by the use of JUnit 5.
         </li>
         <li className={style.li}>
-          Designed and tested RESTful APIs to facilitate unified operations for
-          creating, updating, reading, and deleting entities within one of the
-          products.
+          Devised and tested RESTful APIs to facilitate operations for creating,
+          updating, reading, and deleting entities.
         </li>
       </ul>
     </div>

@@ -4,8 +4,6 @@ import Skills from './Skill';
 import Experience from './Experience';
 import Education from './Education';
 import About from './About';
-import Image from "next/image";
-import styles from "./page.module.css";
 import style from "./home.module.css";
 
 
